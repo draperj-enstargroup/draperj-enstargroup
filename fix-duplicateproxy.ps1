@@ -21,7 +21,7 @@ $Users = @(
 )
 
 # Specify the target OU where users will be moved
-$TargetOU = "OU=TemporaryOU,DC=yourdomain,DC=com"
+$TargetOU = "OU=nonsyncingOU,OU=Group Users,DC=cwglobal,DC=local"
 
 # Create a hash table to store original OUs
 $OriginalOUs = @{}
